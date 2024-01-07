@@ -1,0 +1,9 @@
+tensorflow>=2.0
+torch
+streamlit
+numpy
+pandas
+Pillow
+matplotlib
+cv2
+plotly
