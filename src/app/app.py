@@ -10,12 +10,7 @@ def predict(image):
     # Preprocess the image (ensure this matches the training preprocessing)
     # Resize, scale, etc.
     image = np.array(image)  # Convert image to numpy array
-    # Perform necessary preprocessing steps
-
-    # Make prediction
     prediction = model.predict(image)
-
-    # Return prediction or whatever information you need
     return prediction
 
 # Set up your Streamlit application
